@@ -1,0 +1,59 @@
+body {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: rgb(240, 237, 237);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #ecd2d2;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 20px;
+}       
+
+section h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+section a {
+    color: rgb(255, 255, 255);
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-start; /* aligns the elements to the left of the container */
+    align-items: center; /* centers the elements vertically within the container */
+}
+
+button {
+    margin-right: 10px; /* adds some space between the buttons */
+    border-radius: 20px;
+    font-size: 15px; /* increase the font size to 20px */
+    padding: 10px 20px; /* increase the padding to 15px top/bottom, 30px left/right */
+}
+
+
+.section {
+    opacity: 0.8; /* makes the sections 80% opaque */
+}
+
+
